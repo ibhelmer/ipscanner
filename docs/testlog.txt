@@ -1,0 +1,112 @@
+test_conflicting_guid_never_merged_by_index (test_adapters.InventoryMergeTests.test_conflicting_guid_never_merged_by_index) ... ok
+test_duplicate_addresses_deduplicated (test_adapters.InventoryMergeTests.test_duplicate_addresses_deduplicated) ... ok
+test_guid_case_and_npf_path_match (test_adapters.InventoryMergeTests.test_guid_case_and_npf_path_match) ... ok
+test_interface_index_fallback (test_adapters.InventoryMergeTests.test_interface_index_fallback) ... ok
+test_no_synthetic_capture_identifier (test_adapters.InventoryMergeTests.test_no_synthetic_capture_identifier) ... ok
+test_placeholder_mac_does_not_replace_valid_mac (test_adapters.InventoryMergeTests.test_placeholder_mac_does_not_replace_valid_mac) ... ok
+test_same_mac_different_guid_not_merged (test_adapters.InventoryMergeTests.test_same_mac_different_guid_not_merged) ... ok
+test_duplicate_address_state_retained (test_adapters.InventoryParsingTests.test_duplicate_address_state_retained) ... ok
+test_invalid_address_is_ignored_not_whole_adapter (test_adapters.InventoryParsingTests.test_invalid_address_is_ignored_not_whole_adapter) ... ok
+test_invalid_json_shape (test_adapters.InventoryParsingTests.test_invalid_json_shape) ... ok
+test_ip_only_interface_remains_visible (test_adapters.InventoryParsingTests.test_ip_only_interface_remains_visible) ... ok
+test_no_adapters_is_valid_json (test_adapters.InventoryParsingTests.test_no_adapters_is_valid_json) ... ok
+test_non_utf8_output_warns (test_adapters.InventoryParsingTests.test_non_utf8_output_warns) ... ok
+test_partial_windows_error_is_explicit (test_adapters.InventoryParsingTests.test_partial_windows_error_is_explicit) ... ok
+test_powershell_denied_is_explicit (test_adapters.InventoryParsingTests.test_powershell_denied_is_explicit) ... ok
+test_powershell_one_adapter_one_address (test_adapters.InventoryParsingTests.test_powershell_one_adapter_one_address) ... ok
+test_powershell_timeout_is_not_empty_success (test_adapters.InventoryParsingTests.test_powershell_timeout_is_not_empty_success) ... ok
+test_powershell_uses_timeout_and_no_shell (test_adapters.InventoryParsingTests.test_powershell_uses_timeout_and_no_shell) ... ok
+test_duplicate_source_ip_blocks_scan (test_adapters.WindowsBackendTests.test_duplicate_source_ip_blocks_scan) ... ok
+test_engine_rejects_unavailable_adapter (test_adapters.WindowsBackendTests.test_engine_rejects_unavailable_adapter) ... ok
+test_import_failure_still_reads_windows (test_adapters.WindowsBackendTests.test_import_failure_still_reads_windows) ... ok
+test_inactive_and_no_ipv4_not_hidden (test_adapters.WindowsBackendTests.test_inactive_and_no_ipv4_not_hidden) ... ok
+test_ipv6_only_interface_is_not_lost (test_adapters.WindowsBackendTests.test_ipv6_only_interface_is_not_lost) ... ok
+test_loopback_visible_but_arp_blocked (test_adapters.WindowsBackendTests.test_loopback_visible_but_arp_blocked) ... ok
+test_missing_npcap_keeps_os_inventory_visible (test_adapters.WindowsBackendTests.test_missing_npcap_keeps_os_inventory_visible) ... ok
+test_multi_ip_uses_separate_prefixes (test_adapters.WindowsBackendTests.test_multi_ip_uses_separate_prefixes) ... ok
+test_native_windows_only_not_silently_dropped (test_adapters.WindowsBackendTests.test_native_windows_only_not_silently_dropped) ... ok
+test_report_explains_unavailable_and_does_not_send (test_adapters.WindowsBackendTests.test_report_explains_unavailable_and_does_not_send) ... ok
+test_route_failure_does_not_hide_adapters (test_adapters.WindowsBackendTests.test_route_failure_does_not_hide_adapters) ... ok
+test_scapy_valid_false_is_warning_not_visibility_filter (test_adapters.WindowsBackendTests.test_scapy_valid_false_is_warning_not_visibility_filter) ... ok
+test_windows_api_recovers_missing_mac_and_ip (test_adapters.WindowsBackendTests.test_windows_api_recovers_missing_mac_and_ip) ... ok
+test_windows_name_and_prefix_enrich_scapy (test_adapters.WindowsBackendTests.test_windows_name_and_prefix_enrich_scapy) ... ok
+test_windows_only_adapter_is_listed_but_not_scannable (test_adapters.WindowsBackendTests.test_windows_only_adapter_is_listed_but_not_scannable) ... ok
+test_atomic_export_keeps_old_file_if_replace_fails (test_core.CSVTests.test_atomic_export_keeps_old_file_if_replace_fails) ... ok
+test_blank_header_is_rejected (test_core.CSVTests.test_blank_header_is_rejected) ... ok
+test_case_and_header_aliases (test_core.CSVTests.test_case_and_header_aliases) ... ok
+test_comma_quoted_value (test_core.CSVTests.test_comma_quoted_value) ... ok
+test_cp1252 (test_core.CSVTests.test_cp1252) ... ok
+test_csv_rejects_subnets_ranges_and_ipv6 (test_core.CSVTests.test_csv_rejects_subnets_ranges_and_ipv6) ... ok
+test_decimal_comma_for_danish_excel (test_core.CSVTests.test_decimal_comma_for_danish_excel) ... ok
+test_documented_semicolon_and_quotes_example (test_core.CSVTests.test_documented_semicolon_and_quotes_example) ... ok
+test_duplicate_conflict_is_rejected (test_core.CSVTests.test_duplicate_conflict_is_rejected) ... ok
+test_duplicate_identical_is_deduplicated (test_core.CSVTests.test_duplicate_identical_is_deduplicated) ... ok
+test_duplicate_ip_is_reported_in_export (test_core.CSVTests.test_duplicate_ip_is_reported_in_export) ... ok
+test_export_formula_protection (test_core.CSVTests.test_export_formula_protection) ... ok
+test_export_is_sorted_and_contains_metadata (test_core.CSVTests.test_export_is_sorted_and_contains_metadata) ... ok
+test_invalid_csv (test_core.CSVTests.test_invalid_csv) ... ok
+test_invalid_row_reports_line (test_core.CSVTests.test_invalid_row_reports_line) ... ok
+test_multiple_aliases_for_same_column_are_rejected (test_core.CSVTests.test_multiple_aliases_for_same_column_are_rejected) ... ok
+test_only_ip_column (test_core.CSVTests.test_only_ip_column) ... ok
+test_safe_csv_cells (test_core.CSVTests.test_safe_csv_cells) ... ok
+test_semicolon_and_danish_text (test_core.CSVTests.test_semicolon_and_danish_text) ... ok
+test_tab_separated (test_core.CSVTests.test_tab_separated) ... ok
+test_too_large_file (test_core.CSVTests.test_too_large_file) ... ok
+test_unknown_columns_and_reordered_headers (test_core.CSVTests.test_unknown_columns_and_reordered_headers) ... ok
+test_utf16_not_supported (test_core.CSVTests.test_utf16_not_supported) ... ok
+test_batch_size_is_bounded (test_core.ScanEngineTests.test_batch_size_is_bounded) ... ok
+test_cancel_before_start_sends_nothing (test_core.ScanEngineTests.test_cancel_before_start_sends_nothing) ... ok
+test_cancel_between_batches_preserves_partial_results (test_core.ScanEngineTests.test_cancel_between_batches_preserves_partial_results) ... ok
+test_demo_uses_only_synthetic_addresses (test_core.ScanEngineTests.test_demo_uses_only_synthetic_addresses) ... ok
+test_driver_error_is_user_friendly (test_core.ScanEngineTests.test_driver_error_is_user_friendly) ... ok
+test_empty_scan_does_not_ping (test_core.ScanEngineTests.test_empty_scan_does_not_ping) ... ok
+test_multiple_macs_are_preserved (test_core.ScanEngineTests.test_multiple_macs_are_preserved) ... ok
+test_permission_error_is_user_friendly (test_core.ScanEngineTests.test_permission_error_is_user_friendly) ... ok
+test_ping_optional (test_core.ScanEngineTests.test_ping_optional) ... ok
+test_ping_timeout_keeps_arp_device (test_core.ScanEngineTests.test_ping_timeout_keeps_arp_device) ... ok
+test_progress_completes (test_core.ScanEngineTests.test_progress_completes) ... ok
+test_repeated_identical_observation_is_deduplicated (test_core.ScanEngineTests.test_repeated_identical_observation_is_deduplicated) ... ok
+test_retry_only_unanswered_addresses (test_core.ScanEngineTests.test_retry_only_unanswered_addresses) ... ok
+test_unknown_status_is_not_enabled_without_csv (test_core.ScanEngineTests.test_unknown_status_is_not_enabled_without_csv) ... ok
+test_cidr_normalisation_and_host_exclusion (test_core.TargetTests.test_cidr_normalisation_and_host_exclusion) ... ok
+test_full_range (test_core.TargetTests.test_full_range) ... ok
+test_invalid_inputs (test_core.TargetTests.test_invalid_inputs) ... ok
+test_invalid_numeric_scan_settings (test_core.TargetTests.test_invalid_numeric_scan_settings) ... ok
+test_link_check (test_core.TargetTests.test_link_check) ... ok
+test_mac_validation (test_core.TargetTests.test_mac_validation) ... ok
+test_oversized_targets_rejected (test_core.TargetTests.test_oversized_targets_rejected) ... ok
+test_range_can_cross_octet_boundary (test_core.TargetTests.test_range_can_cross_octet_boundary) ... ok
+test_short_range (test_core.TargetTests.test_short_range) ... ok
+test_single_address (test_core.TargetTests.test_single_address) ... ok
+test_slash_16_allowed (test_core.TargetTests.test_slash_16_allowed) ... ok
+test_slash_31 (test_core.TargetTests.test_slash_31) ... ok
+test_slash_32 (test_core.TargetTests.test_slash_32) ... ok
+test_source_adapter_multiple_networks (test_core.TargetTests.test_source_adapter_multiple_networks) ... ok
+test_about_contains_copyright_and_license (test_gui.GUITests.test_about_contains_copyright_and_license) ... ok
+test_bad_csv_preserves_original_list (test_gui.GUITests.test_bad_csv_preserves_original_list) ... ok
+test_blocked_adapter_visible_but_start_disabled (test_gui.GUITests.test_blocked_adapter_visible_but_start_disabled) ... ok
+test_clear_results (test_gui.GUITests.test_clear_results) ... ok
+test_close_while_scanning (test_gui.GUITests.test_close_while_scanning) ... ok
+test_csv_help_button_has_format_rules (test_gui.GUITests.test_csv_help_button_has_format_rules) ... ok
+test_demo_scan_and_alarm (test_gui.GUITests.test_demo_scan_and_alarm) ... ok
+test_diagnostics_shows_interface_and_sources (test_gui.GUITests.test_diagnostics_shows_interface_and_sources) ... ok
+test_help_window_is_scrollable_and_closes (test_gui.GUITests.test_help_window_is_scrollable_and_closes) ... ok
+test_invalid_input_does_not_delete_results (test_gui.GUITests.test_invalid_input_does_not_delete_results) ... ok
+test_numeric_ip_sorting (test_gui.GUITests.test_numeric_ip_sorting) ... ok
+test_off_link_target_is_rejected (test_gui.GUITests.test_off_link_target_is_rejected) ... ok
+test_refresh_preserves_selected_ip_and_manual_target (test_gui.GUITests.test_refresh_preserves_selected_ip_and_manual_target) ... ok
+test_remove_csv_disables_alarm (test_gui.GUITests.test_remove_csv_disables_alarm) ... ok
+test_save_example_creates_readable_assignment_file (test_gui.GUITests.test_save_example_creates_readable_assignment_file) ... ok
+test_stop_keeps_gui_responsive (test_gui.GUITests.test_stop_keeps_gui_responsive) ... ok
+test_broadcast_request_and_selected_interface (test_scapy_packets.ScapyPacketTests.test_broadcast_request_and_selected_interface) ... skipped 'Scapy er ikke installeret: pakkeintegration er ikke kørt.'
+test_echo_reply_and_real_packet_timestamps (test_scapy_packets.ScapyPacketTests.test_echo_reply_and_real_packet_timestamps) ... skipped 'Scapy er ikke installeret: pakkeintegration er ikke kørt.'
+test_icmp_error_is_not_a_ping_success (test_scapy_packets.ScapyPacketTests.test_icmp_error_is_not_a_ping_success) ... skipped 'Scapy er ikke installeret: pakkeintegration er ikke kørt.'
+test_two_macs_for_one_ip_are_preserved (test_scapy_packets.ScapyPacketTests.test_two_macs_for_one_ip_are_preserved) ... skipped 'Scapy er ikke installeret: pakkeintegration er ikke kørt.'
+test_unsolicited_and_wrong_arp_packets_are_ignored (test_scapy_packets.ScapyPacketTests.test_unsolicited_and_wrong_arp_packets_are_ignored) ... skipped 'Scapy er ikke installeret: pakkeintegration er ikke kørt.'
+test_vendor_lookup_is_local (test_scapy_packets.ScapyPacketTests.test_vendor_lookup_is_local) ... skipped 'Scapy er ikke installeret: pakkeintegration er ikke kørt.'
+test_wrong_echo_sequence_is_not_a_ping_success (test_scapy_packets.ScapyPacketTests.test_wrong_echo_sequence_is_not_a_ping_success) ... skipped 'Scapy er ikke installeret: pakkeintegration er ikke kørt.'
+
+----------------------------------------------------------------------
+Ran 107 tests in 9.473s
+
+OK (skipped=7)

@@ -1,0 +1,12 @@
+IP Scanner — Python, Tkinter and Scapy
+Copyright 2026 Ib Helmer Nielsen
+
+This project's original source code, tests, scripts and documentation are
+licensed under the Apache License, Version 2.0. See LICENSE.
+
+Scapy, Npcap, Python and Tcl/Tk are separate third-party components. They are
+not included in this source archive and are not relicensed by this notice.
+See THIRD_PARTY_NOTICES.md for dependency licenses and distribution cautions.
+
+This project is not an Apache Software Foundation project and is not endorsed
+by the Apache Software Foundation, Scapy or Npcap.

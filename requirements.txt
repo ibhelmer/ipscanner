@@ -1,0 +1,4 @@
+# Copyright 2026 Ib Helmer Nielsen
+# SPDX-License-Identifier: Apache-2.0
+# Scapy står for alle ARP- og ICMP-pakker. Tkinter følger normalt med Python.
+scapy>=2.6.1,<3.0
